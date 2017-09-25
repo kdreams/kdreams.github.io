@@ -145,7 +145,7 @@ h1{
   right: 0;
   font-size: 0;
   width: 82%;
-  height: auto;
+  /*height: 65px;*/
   margin: auto;
   overflow: hidden;
   margin-top: 2.5%;
