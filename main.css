@@ -1,6 +1,6 @@
 @font-face{
 	font-family: "Adobe Garamond";
-	src: url('Fonts/Garamond/AGaramondPro-Regular.otf');
+	src: url('./Fonts/Garamond/AGaramondPro-Regular.otf');
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -22,7 +22,7 @@ h1{
   font-size: 11vh;
 	letter-spacing: 3px;
 	color:#F1Efea;
-	
+
 }
 
 
@@ -58,19 +58,19 @@ h1{
 
 /* Styles for the specific images. */
 .first-image {
-	background-image: url('/images/Wallpapers/Whisper-of-the-Heart-whisper-of-the-heart-30619610-1920-1080.jpg');
+	background-image: url('./images/Wallpapers/Whisper-of-the-Heart-whisper-of-the-heart-30619610-1920-1080.jpg');
 	z-index: -8;
 	opacity: 0;
 }
 
 .second-image {
-	background-image: url('/images/Wallpapers/garden-of-words-fallen-leaves-flowers-rain-1920x1080-wallpaper.jpg');
+	background-image: url('./images/Wallpapers/garden-of-words-fallen-leaves-flowers-rain-1920x1080-wallpaper.jpg');
 	z-index: -7;
 	opacity: 0;
 }
 
 .fourth-image {
-	background-image: url('/images/Wallpapers/605495.jpg');
+	background-image: url('./images/Wallpapers/605495.jpg');
 	z-index: -6;
 	opacity: 0;
 }
@@ -82,7 +82,7 @@ h1{
 /*}*/
 
 .fifth-image {
-	background-image: url('/images/Wallpapers/6TG6qc6.jpg');
+	background-image: url('./images/Wallpapers/6TG6qc6.jpg');
 	z-index: -4;
 	opacity: 0;
 }
@@ -94,13 +94,13 @@ h1{
 /*}*/
 
 .seventh-image {
-	background-image: url('/images/Wallpapers/only_yesterday_14.jpg');
+	background-image: url('./images/Wallpapers/only_yesterday_14.jpg');
 	z-index: -2;
 	opacity: 0;
 }
 
 .eigth-image {
-	background-image: url('/images/Wallpapers/tumblr_mo107yEaoS1sor8q8o8_1280.jpg');
+	background-image: url('./images/Wallpapers/tumblr_mo107yEaoS1sor8q8o8_1280.jpg');
 	z-index: -1;
 	opacity: 0;
 }
@@ -150,7 +150,7 @@ h1{
   overflow: hidden;
   margin-top: 2.5%;
   border: 2px solid black;
- 
+
 }
 
 .menuitem{
@@ -169,8 +169,8 @@ h1{
 }
 
 .fixed {
-  position: fixed; 
-	top: 0; 
+  position: fixed;
+	top: 0;
 	z-index: 2;
 }
 
